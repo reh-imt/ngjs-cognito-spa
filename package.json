@@ -1,0 +1,27 @@
+{
+  "name": "ngjs-cognito-spa",
+  "version": "1.0.0",
+  "description": "An AngularJS wrapper service for the aws-amplify module",
+  "main": "ngjs-cognito-spa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reh-imt/ngjs-cognito-spa.git"
+  },
+  "keywords": [
+    "Cognito",
+    "spa",
+    "AngularJS"
+  ],
+  "author": "Roan Horning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reh-imt/ngjs-cognito-spa/issues"
+  },
+  "homepage": "https://github.com/reh-imt/ngjs-cognito-spa#readme",
+  "dependencies": {
+    "aws-amplify": "^4.3.22"
+  }
+}
