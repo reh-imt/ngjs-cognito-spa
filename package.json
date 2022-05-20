@@ -1,6 +1,6 @@
 {
   "name": "ngjs-cognito-spa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An AngularJS wrapper service for the aws-amplify module",
   "main": "ngjs-cognito-spa.js",
   "scripts": {
