@@ -1,15 +1,15 @@
-
 import Amplify, { Auth, Hub, API } from 'aws-amplify'
 (function(angular) {
 
     'use strict';
-    function CreateCognitoClientFactory () {
+    var CreateCognitoClientFactory = function  () {
       return {
         "Amplify": Amplify,
         "Auth": Auth,
         "Hub": Hub,
-        "API": Api
+        "API": API
     }
+}
   
     angular.module('cognito.spa', [])
         .service('createCognitoClient', function() { return CreateCognitoClientFactory; } )
